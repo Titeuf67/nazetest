@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+
+    header {
+        nav {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row-reverse;
+
+            ul {
+                width: 40%;
+                list-style: none;
+                padding-left: 0;
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    a {}
+                }
+            }
+        }
+    }
+}
+
+#hero {
+    height: 80vh;
+    background-image: url('./image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
