@@ -1,0 +1,23 @@
+body {
+    margin: 0
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+li {}
