@@ -31,41 +31,41 @@ body {
         background-position: center;
     }
 
+    .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+        section {
+            div {
+                article {
+                    width: 28%;
 
-    section {
-        .container {
-            width: 80%;
-            margin: auto;
-            display: flex;
-            justify-content: space-around;
+                    border: grey solid 3px;
 
-            article {
-                width: 28%;
+                    h2 {
+                        color: green;
+                    }
 
-                border: grey solid 3px;
-
-                h2 {
-                    color: green;
+                    p {
+                        color: blue
+                    }
                 }
+            }
 
-                p {
-                    color: blue
-                }
+            #marge {
+                padding: 5%
             }
         }
 
-        #marge {
-            padding: 5%
-        }
-    }
-
-    footer {
-        background-color: black;
-        color: white;
+        footer {
+            background-color: black;
+            color: white;
 
             article {
                 width: 20%;
-                border: grey solid 3px;
+
 
                 h3 {}
 
@@ -74,5 +74,5 @@ body {
         }
 
 
+
     }
-}

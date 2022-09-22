@@ -21,20 +21,20 @@ body #hero {
   background-size: cover;
   background-position: center;
 }
-body section .container {
+body .container {
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
 }
-body section .container article {
+body section div article {
   width: 28%;
   border: grey solid 3px;
 }
-body section .container article h2 {
+body section div article h2 {
   color: green;
 }
-body section .container article p {
+body section div article p {
   color: blue;
 }
 body section #marge {
@@ -44,13 +44,6 @@ body footer {
   background-color: black;
   color: white;
 }
-body footer .container {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
-body footer .container article {
+body footer article {
   width: 20%;
-  border: grey solid 3px;
 }/*# sourceMappingURL=style.css.map */
