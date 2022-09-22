@@ -31,8 +31,9 @@ body {
     background-position: center;
 }
 
+
 section {
-    #container {
+    .container {
         width: 80%;
         margin: auto;
         display: flex;
@@ -53,7 +54,29 @@ section {
         }
     }
 
-    #marge {padding:5%
-      
+    #marge {
+        padding: 5%
     }
 }
+
+footer {
+    background-color: black;
+    color: white;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+
+        article {
+            width: 20%;
+
+            h3 {}
+
+            p {}
+        }
+    }
+
+   
+    }
