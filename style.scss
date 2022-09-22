@@ -30,3 +30,30 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+section {
+    #container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+
+        article {
+            width: 28%;
+
+            border: grey solid 3px;
+
+            h2 {
+                color: green;
+            }
+
+            p {
+                color: blue
+            }
+        }
+    }
+
+    #marge {padding:5%
+      
+    }
+}
