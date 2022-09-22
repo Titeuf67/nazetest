@@ -37,42 +37,150 @@ body {
         display: flex;
         justify-content: space-around;
     }
-        section {
-            div {
-                article {
-                    width: 28%;
 
-                    border: grey solid 3px;
+    section {
+        div {
+            article {
+                width: 28%;
 
-                    h2 {
-                        color: green;
-                    }
+                border: grey solid 3px;
 
-                    p {
-                        color: blue
-                    }
+                h2 {
+                    color: green;
+                }
+
+                p {
+                    color: blue
+                }
+            }
+        }
+
+        #marge {
+            padding: 5%
+        }
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+
+        article {
+            width: 20%;
+
+
+            h3 {}
+
+            p {}
+        }
+    }
+
+    section {
+        // france
+
+        #france {
+            height: 200px;
+            width: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+            #bleu {
+                background-color: blue;
+                width: 33%;
+            }
+
+            #blanc {
+                background-color: white;
+                width: 33%;
+
+
+            }
+
+            #rouge {
+
+                background-color: red;
+                width: 33%;
+            }
+
+        }
+
+        // allemagne
+        #allemagne {
+            height: 200px;
+            margin: auto;
+            width: 300px;
+
+            #noir {
+                background-color: black;
+                height: 33%;
+            }
+
+            #rouge {
+                background-color: red;
+                height: 33%;
+            }
+
+            #jaune {
+                background-color: yellow;
+                height: 33%;
+            }
+        }
+
+        // canada
+        #canada {
+            height: 200px;
+            width: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+
+            #blancbis {
+                background-color: white;
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: red;
+                    font-size: 2em;
                 }
             }
 
-            #marge {
-                padding: 5%
+            #rouge {
+
+                background-color: red;
+                width: 30%;
+            }
+
+        }
+// liban
+        #liban {
+            height: 200px;
+            margin: auto;
+            width: 300px;
+            border: 2px solid black;
+
+
+
+            #rouge {
+                background-color: red;
+                height: 30%;
+            }
+
+            #blanc {
+                background-color: white;
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    font-size: 30px;
+                    color: green;
+                }
             }
         }
-
-        footer {
-            background-color: black;
-            color: white;
-
-            article {
-                width: 20%;
-
-
-                h3 {}
-
-                p {}
-            }
-        }
-
-
-
     }
+}

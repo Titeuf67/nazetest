@@ -46,4 +46,83 @@ body footer {
 }
 body footer article {
   width: 20%;
+}
+body section #france {
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+body section #france #bleu {
+  background-color: blue;
+  width: 33%;
+}
+body section #france #blanc {
+  background-color: white;
+  width: 33%;
+}
+body section #france #rouge {
+  background-color: red;
+  width: 33%;
+}
+body section #allemagne {
+  height: 200px;
+  margin: auto;
+  width: 300px;
+}
+body section #allemagne #noir {
+  background-color: black;
+  height: 33%;
+}
+body section #allemagne #rouge {
+  background-color: red;
+  height: 33%;
+}
+body section #allemagne #jaune {
+  background-color: yellow;
+  height: 33%;
+}
+body section #canada {
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+body section #canada #blancbis {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section #canada #blancbis i {
+  color: red;
+  font-size: 2em;
+}
+body section #canada #rouge {
+  background-color: red;
+  width: 30%;
+}
+body section #liban {
+  height: 200px;
+  margin: auto;
+  width: 300px;
+  border: 2px solid black;
+}
+body section #liban #rouge {
+  background-color: red;
+  height: 30%;
+}
+body section #liban #blanc {
+  background-color: white;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section #liban #blanc i {
+  font-size: 30px;
+  color: green;
 }/*# sourceMappingURL=style.css.map */
