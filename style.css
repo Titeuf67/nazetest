@@ -14,44 +14,43 @@ body header nav ul {
   display: flex;
   justify-content: space-between;
 }
-#hero {
+body #hero {
   height: 80vh;
   background-image: url("./image1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
-section .container {
+body section .container {
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
 }
-section .container article {
+body section .container article {
   width: 28%;
   border: grey solid 3px;
 }
-section .container article h2 {
+body section .container article h2 {
   color: green;
 }
-section .container article p {
+body section .container article p {
   color: blue;
 }
-section #marge {
+body section #marge {
   padding: 5%;
 }
-
-footer {
+body footer {
   background-color: black;
   color: white;
 }
-footer .container {
+body footer .container {
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
 }
-footer .container article {
+body footer .container article {
   width: 20%;
+  border: grey solid 3px;
 }/*# sourceMappingURL=style.css.map */

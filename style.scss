@@ -21,62 +21,58 @@ body {
             }
         }
     }
-}
-
-#hero {
-    height: 80vh;
-    background-image: url('./image1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 
-section {
-    .container {
-        width: 80%;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
+    #hero {
+        height: 80vh;
+        background-image: url('./image1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
-        article {
-            width: 28%;
 
-            border: grey solid 3px;
+    section {
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
 
-            h2 {
-                color: green;
+            article {
+                width: 28%;
+
+                border: grey solid 3px;
+
+                h2 {
+                    color: green;
+                }
+
+                p {
+                    color: blue
+                }
             }
+        }
 
-            p {
-                color: blue
-            }
+        #marge {
+            padding: 5%
         }
     }
 
-    #marge {
-        padding: 5%
+    footer {
+        background-color: black;
+        color: white;
+
+            article {
+                width: 20%;
+                border: grey solid 3px;
+
+                h3 {}
+
+                p {}
+            }
+        }
+
+
     }
 }
-
-footer {
-    background-color: black;
-    color: white;
-
-    .container {
-        width: 80%;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
-
-        article {
-            width: 20%;
-
-            h3 {}
-
-            p {}
-        }
-    }
-
-   
-    }
