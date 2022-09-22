@@ -38,6 +38,7 @@ body {
         justify-content: space-around;
     }
 
+
     section {
         div {
             article {
@@ -75,6 +76,13 @@ body {
     }
 
     section {
+        #inline {
+            margin: auto;
+            display: flex;
+            justify-content:space-around;
+       
+        }
+
         // france
 
         #france {
@@ -155,7 +163,8 @@ body {
             }
 
         }
-// liban
+
+        // liban
         #liban {
             height: 200px;
             margin: auto;
