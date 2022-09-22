@@ -22,22 +22,36 @@ body header nav ul {
   background-position: center;
 }
 
-section #container {
+section .container {
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
 }
-section #container article {
+section .container article {
   width: 28%;
   border: grey solid 3px;
 }
-section #container article h2 {
+section .container article h2 {
   color: green;
 }
-section #container article p {
+section .container article p {
   color: blue;
 }
 section #marge {
   padding: 5%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer .container article {
+  width: 20%;
 }/*# sourceMappingURL=style.css.map */
